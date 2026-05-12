@@ -1,4 +1,9 @@
-site_name: My Dev Wiki
+site_name: PM Wiki
 
 theme:
   name: material
+
+nav:
+  - Home: index.md
+  - Git: git.md
+  - Infra: infra.md
