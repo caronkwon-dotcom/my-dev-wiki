@@ -7,3 +7,14 @@ nav:
   - Home: index.md
   - Git: git.md
   - Infra: infra.md
+  - 구매시스템:
+      - 협력업체 정기평가:
+          - 개요: purchase/vendor-evaluation/index.md
+          - 프로세스 설계: purchase/vendor-evaluation/process.md
+          - 평가/점수 산정 규칙: purchase/vendor-evaluation/score-rule.md
+          - 체크리스트/현장실사: purchase/vendor-evaluation/checklist.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
